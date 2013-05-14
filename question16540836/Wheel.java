@@ -1,4 +1,4 @@
-package demo;
+package question16540836;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlIDREF;

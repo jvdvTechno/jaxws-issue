@@ -1,4 +1,4 @@
-package demo;
+package question16540836;
 
 public class Bike extends XmlEntity {
     private String color;

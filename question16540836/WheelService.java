@@ -1,4 +1,4 @@
-package demo;
+package question16540836;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.List;
 import javax.jws.WebService;
 import javax.xml.ws.Endpoint;
 
-@WebService(endpointInterface = "demo.IWheelService")
+@WebService(endpointInterface = "question16540836.IWheelService")
 public class WheelService implements IWheelService {
     private List<Wheel> wheels = new ArrayList<>();
 

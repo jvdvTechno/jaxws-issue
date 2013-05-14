@@ -1,4 +1,4 @@
-package demo;
+package question16540836;
 
 import java.io.Serializable;
 
@@ -8,7 +8,8 @@ import javax.xml.bind.annotation.XmlID;
 import javax.xml.bind.annotation.XmlTransient;
 
 public abstract class XmlEntity implements Serializable {
-    private int id = Marshaltest.idGenerator++;
+    public static int idGenerator = 0;
+    private int id = idGenerator++;
 
     @XmlTransient
     public int getId() {
